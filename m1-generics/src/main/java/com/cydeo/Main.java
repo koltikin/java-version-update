@@ -13,6 +13,30 @@ public class Main {
         
         printDoubled(items);
 
+        System.out.println("* ----------------------------------------------------------- *");
+
+        FootballPlayer ziya = new FootballPlayer("ziya");
+        BaseballPlayer seyfullah = new BaseballPlayer("seyfullah");
+        SoccerPlayer adil = new SoccerPlayer("adil");
+
+        Team<SoccerPlayer> egle = new Team("egle");
+
+//        egle.addPlayer(ziya);
+//        egle.addPlayer(seyfullah);
+          System.out.println(egle.addPlayer(adil));
+          System.out.println(egle.addPlayer(adil));
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
