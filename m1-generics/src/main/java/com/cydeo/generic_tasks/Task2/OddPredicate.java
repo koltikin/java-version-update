@@ -1,4 +1,4 @@
-package com.cydeo.generic_tasks;
+package com.cydeo.generic_tasks.Task2;
 
 public class OddPredicate implements UnaryPredicate<Integer>{
     @Override
