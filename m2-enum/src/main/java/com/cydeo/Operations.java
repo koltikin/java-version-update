@@ -3,7 +3,7 @@ package com.cydeo;
 public enum Operations {
     ADD('+'), SUBTRACTION('-') ,MULTIPLICATION('*'), DIVISION('/');
 
-    private char operationSymbol;
+    private final char operationSymbol;
 
     Operations(char chr) {
         this.operationSymbol = chr;
