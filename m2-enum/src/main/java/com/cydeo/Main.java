@@ -65,7 +65,7 @@ public class Main {
         Random my_random = new Random();
         int index = my_random.nextInt(4);
         int result;
-        char operationSymbol =operation[index].getOperationSymbol();
+        char operationSymbol = operation[index].getOperationSymbol();
         if (operationSymbol == '-') {
             result = x - y;
         }else if(operationSymbol == '+'){
