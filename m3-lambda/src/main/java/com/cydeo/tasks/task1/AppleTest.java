@@ -12,6 +12,8 @@ public class AppleTest {
         inventory.add(new Apple(200,Color.GREEN));
         inventory.add(new Apple(250,Color.RED));
 
+        System.out.println(Color.RED);
+
         List<Apple> greenApple = filterApple(inventory,new AppleGreenColorPredicate());
         System.out.println("greenApple = " + greenApple);
 
