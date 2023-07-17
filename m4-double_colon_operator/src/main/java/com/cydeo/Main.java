@@ -1,6 +1,7 @@
 package com.cydeo;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -50,6 +51,9 @@ public class Main {
 
         System.out.println(b.apply(8));
         System.out.println(b1.apply(new MyClass(), 8));
+
+        Consumer<Integer> display = i -> System.out.println(i);
+        Consumer<Integer> display1 = System.out::println;
 
 
     }
