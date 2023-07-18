@@ -38,6 +38,15 @@ public class StreamOperations {
                 .skip(1)            // skipping the elements from the first element
                 .forEach(System.out::println);
 
+
+        System.out.println("-------------using Stream-----map------------");
+
+        l1.stream()
+                .map(num->num*2)
+                .limit(4)
+                .filter(i->i%3 == 0)
+                .forEach(System.out::println);
+
     }
 
 
